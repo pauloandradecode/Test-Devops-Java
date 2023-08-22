@@ -1,0 +1,48 @@
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+-sourcepath
+'/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/src/main/java:/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/generated-sources/annotations'
+-author
+-bottom
+'Copyright &#169; 2021 <a href="https://www.digitalthinking.biz">digitalthinking.biz</a>. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'common-library 0.0.1 API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'common-library 0.0.1 API'
+com.digitalthinking.common
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/src/main/java = 1637048889998
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/generated-sources/annotations = 1637864570202
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/allpackages-index.html = 1637864573058
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/index-all.html = 1637864573050
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/constant-values.html = 1637864573010
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/member-search-index.zip = 1637864573046
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/type-search-index.zip = 1637864573046
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/element-list = 1637864572994
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/package-search-index.js = 1637864573034
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/stylesheet.css = 1637864573082
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/search.js = 1637864573086
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/deprecated-list.html = 1637864573062
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/script.js = 1637864573086
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/allclasses.html = 1637864573062
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/overview-tree.html = 1637864573026
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/help-doc.html = 1637864573082
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/allclasses-index.html = 1637864573054
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/member-search-index.js = 1637864573046
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/package-search-index.zip = 1637864573046
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/index.html = 1637864573078
+/home/sotobotero/workspace/repositories/personal/udemy_azure_devops/gitrepositories/common/target/apidocs/type-search-index.js = 1637864573046
