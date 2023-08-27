@@ -34,3 +34,31 @@ La explicación es la siguiente.-
 * -DartifactId="common-library"
 * -Dversion="0.0.2-SNAPSHOT"
 * -Dfile="$(System.DefaultWorkingDirectory)/target/common-library-0.0.2-SNAPSHOT.jar"'
+
+En la configuración del archivo "pom.xml", agregamos la siguiente configuración antes de build.-
+
+```
+<profiles>
+    <profile>
+        <id>
+        azure_artifacts
+        </id>
+        <repositories>
+            <repository>
+                <id>Common_Artifac</id>
+                <url>https://pkgs.dev.azure.com/paulo866/56086bd2-562a-4422-a346-2e7d375f05af/_packaging/Common_Artifac/maven/v1</url>
+                <releases>
+                    <enabled>true</enabled>
+                </releases>
+                <snapshots>
+                    <enabled>true</enabled>
+                </snapshots>
+            </repository>
+        </repositories>
+        <build>
+        ...
+        </build>
+    </profile>
+</profiles>
+...
+```
