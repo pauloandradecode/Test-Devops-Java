@@ -19,4 +19,6 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'package'
+    goals: 'package  deploy:deploy-file'      
+    mavenAuthenticateFeed: true
+    options: '-X -P azure_artifacts -Dpackaging="jar" -DrepositoryId="Common_Artifac" -Durl="https://pkgs.dev.azure.com/paulo866/56086bd2-562a-4422-a346-2e7d375f05af/_packaging/Common_Artifac/maven/v1" -DgroupId="com.digitalthinking" -DartifactId="common-library" -Dversion="0.0.2-SNAPSHOT" -Dfile="$(System.DefaultWorkingDirectory)/target/common-library-0.0.2-SNAPSHOT.jar"'
